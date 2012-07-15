@@ -1,0 +1,43 @@
+h1. Sinatra Slideshow
+
+h2. Background
+
+This is a simple Sinatra app to present a slideshow.  It requires Ruby 1.9 and uses ultraviolet to render code snippets, and HAML to render the slides. jQuery powers the UI and CSS provides the styling. This was originally forked from <a href='https://github.com/cjsmith/sinatra-slideshow' title='Original Slideshow Repository'>cjsmith's sinatra slideshow repo</a>.
+
+h2. Dependancies
+* RVM
+* Bundler
+* Familiarity with HAML 
+
+h2. How to Start
+
+* First clone (or fork) the repository
+* Create/use a new gemset (I used 1.9.2) 
+
+bc. rvm gemset create slideshow
+
+bc. rvm use 1.9.2@slideshow
+
+* Install the gems
+
+bc. bundle install
+
+* Fire up the server
+
+bc. ruby slideshow.rb
+
+* (Optional) Use shotgun to dynamically serve up the slides (so you can edit on the fly and not have to restart the Sinatra server)
+
+bc. shotgun slideshow.rb
+
+h2. How to Use
+
+If you use standard ruby to start up the server, the slides will be accessible through 0.0.0.0:4567. If you use shotgun, the address will be 0.0.0.0:9393.
+
+You can use the right arrow to advance to the next slide, the left arrow to go back to the previous slide and 'i' to get my notes (or supplementary information) on the slide.
+
+h2. How to Edit
+
+All of the slides are stored inside of slideshow.rb. It should be straight forward. The slides that have a notes sections (#notes) can be viewed by clicking 'i' while the presentation is running. Custom functionality for this is inside of public/js/jquery.controls.js.
+
+I also use HAML data attributes to apply additional classes to the notes slides. The two I use in my presentation are 'alternate' and 'emphasis', which are styled in public/css/slideshow.css.
