@@ -71,24 +71,23 @@ __END__
     
 @@ slide1
 #content
-  %h2 FREE MONEY!
+  %h2 It's all about the benjamins
   %br/
-  %img{src: '/images/stacks-of-money.jpeg'}
+  %img{src: '/images/money.jpeg'}
+  %p But seriously, it is like free money - we don't pay anything for organic traffic so there's only upside. We can never have too much organic traffic.
 
 #notes{ data: { class: 'emphasis'} }
   %h2 Returns on SEO
   %ul
-    %li Discovery our service
+    %li Discovery of our store and the clean out service
     %li Brand exposure
-    %li New users
-    %li Market awareness
-    
-  %p But seriously, it's like free money - we don't pay anything for organic traffic so there's only upside. We can never have too much organic traffic.
+    %li New users &amp; emails
+    %li Market awareness of the 2nd-hand clothing market
 
 @@ slide2
 #content
-  %h2 Organic Traffic
-  %p Organic traffic is our #1 source.
+  %h2 Organic Traffic is #1
+  %br/
   %img{src: '/images/google_pie_graph.png'}
   %p More people come from Google than from anywhere else (that includes direct)....and we haven't even optimized our website for SEO yet. Huge potential.
 
@@ -97,16 +96,16 @@ __END__
   %br/
   %img{src: '/images/other_pie_chart.png'}
     
-  %p We can improve this, but optimizing for Google will provide us the biggest bang for our buck.
+  %p We can improve our Yahoo &amp; Bing traffic, but optimizing for Google first will yield the largest results.
 
 @@ slide3
 #content
   %h3 SEO is important, but what is it?
-  %p SEO is optimizing your website so search engines can index your content and rank your website in search results as high as possible.
-  %p How do search engines do this?
+  %p SEO is optimizing your website so search engines can index your content easily and, through following best practices, rank your website in search results for the keywords you're targeting as high as possible.
+  %p How do search engines work?
   %ul
-    %li They have 'spiders' that 'crawl' the internet going from website to website.
-    %li When they reach your website, the robots click every link and build out a web of links on your website. 
+    %li They have bots that crawl the internet going from website to website.
+    %li When they reach your website, the bots (which are glorified scripts) click every link and build out a map of links on your website. 
     %li Once they map your website's structure, they parse, store, and weight the contents.
     %li Then they send all this information back to the mothership (Google) and they use an algorithm to rank your website amongst other websites for search queries (keywords).
   %p Every large search engine (Google, Yahoo, Bing, Ask) uses their own proprietary algorithm.
@@ -114,29 +113,27 @@ __END__
 @@ slide4
 #content
   %h2 Google PageRank
-  %h3 How does it work?
+  %h3 How does PageRank work?
   %p The exact algorithm is not and never will be published - it's worth billions upon billions of dollars, but we can infer a lot.
   %p We know they have a link analysis algorithm that creates weighted-results for search queries.
   %img{src: '/images/algorithm_gibberish.png'}
   %center
     %p ????????????????????
 
-#notes{ data: { class: 'alternate'} }
-  %h1 PageRank is smarter than us!
-
 @@ slide5
 #content
   %h2 PageRank Simplified  
   %h3 What really matters
+  %br/
   %ul
-    %li Discovery - Google's awareness of your website existence and the content available.
+    %li Discovery - Google's awareness of your website's existence and the content you offer.
     %li Amplifiers - aspects of your website that enhance your page ranking.
     %li Dampeners - aspects of your website that hurt your page ranking.
 
 @@ slide6
 #content
   %h2 PageRank Simplified  
-  %ul
+  %ul.large
     %li 
       %span.highlight Discovery
     %li Amplifiers
@@ -149,21 +146,20 @@ __END__
   %ul
     %li Direct - you manually add your URL to Google's index.
     %li Backlinks - other websites link back to your website and its content.
-    %li Structured linking - having an organized hierarchy of links.
-    %li Following best HTML practices - alt tags for images, title tags for links, etc.
     %li Sitemaps - an HTML/XML file that lists every link you care about on your website.
+    %li Structured linking - having an organized hierarchy of links that is easy for bots to traverse.
     %li Product feeds - if you're an e-commerce website, you can send Google your inventory along with meta information.
 
 #notes{ data: { class: 'emphasis'} }
   %h3 What do our sitemaps look like?
   %br/
   ~load_snippet('sitemap.xml')
-  %p Foreboding: we can do much better than this.
+  %p Foreboding: more on this later.
 
 @@ slide8
 #content
   %h2 PageRank Simplified  
-  %ul
+  %ul.large
     %li Discovery
     %li 
       %span.highlight Amplifiers
@@ -172,21 +168,21 @@ __END__
 @@ slide9
 #content
   %h2 Amplifiers
-  %p What makes some websites higher than others in rankings?
   %ul
-    %li Quality - unique and genuine content trumps everything. PageRank is smart, they know whether your content is valuable to the user. 
+    %li Quality - Unique and genuine content trumps everything. Google only cares if you're providing value to the user.
+    %li Backlinks - The more websites that link to yours, the better your search rankings will be. The quality of the backlink is very important though.
     %li Speed - Google knows how long your page takes to load and they know users don't want to wait, so the speed of your website does influence your ranking.
-    %li Usability - does your website need JavaScript to work? do you have too many ads? is your layout conducive to a good user experience?
-    %li Number of backlinks - if people are linking to your website, you must have something worth sharing.
-    %li Best coding practices - being HTML compliant, building descriptive URL schemes, and using all the proper HTML attributes is a signal to Google that you take care in the construction of the website.
-    %li Best web practices - do you have FAQs? do you have a HTML sitemap/directory for your users? 
+    %li Usability - Does your website need JavaScript to work? Do you have too many ads? Is your layout conducive to a good user experience?
+    %li Best coding practices - Being HTML compliant, using alt tag text for images, title tag text for links, building descriptive URL schemes, and using all the proper HTML attributes is a signal to Google that you take care in the construction of the website.
+    %li Best web practices - Do you have FAQs? Do you have a HTML sitemap/directory for your users? 
 
-  %p PageRank is like a human being. It knows what's legit and not.
+  %p 
+    %i PageRank is like a human being. It can deduce the legitimacy of your content.
 
 @@ slide10
 #content
   %h2 PageRank Simplified  
-  %ul
+  %ul.large
     %li Discovery
     %li Amplifiers
     %li 
@@ -194,29 +190,29 @@ __END__
 
 @@ slide11
 #content
-  %h2 Dampeners
+  %h2 Dampeners (1 of 2)
   %p What will hurt you? 
   %ul
     %li 
       %b Keyword stuffing
-      \- if you put too many keywords on your website, Google has a tougher time deciphering which ones actually matter.
-    %li Quality - if other websites provide better versions of your content, you'll be ranked lower (i.e. GAP has better information about their brand than we can provide, therefore we will rank low when people search for GAP). 
+      \- If you put too many keywords on your website, Google has a tougher time deciphering the signal from the noise. 
+    %li Quality - If other websites provide better versions of your content, you'll be ranked lower (i.e. GAP has better information about their brand than we can provide, therefore we will rank lower when people search for GAP). 
     %li Speed - the slower your website, the worse your ranking.
     %li Number of backlinks - if you don't have a lot of backlinks, they judge you.
     %li Bad coding practices - if your code compliance is poor, it will hurt you.
   
 @@ slide12
 #content
-  %h2 Dampeners
+  %h2 Dampeners (2 of 2)
   %p 
     What will Google penalize you for? 
     %span.highlight Anything shady.
-  %p PageRank is like a human being. It knows what's legit and what's not.
+  %p PageRank is extremely intelligent and is constantly evolving.
   %ul
-    %li Cloaking - putting scrape-able content on the page, but hiding it in from the user.
-    %li Low-value pages - if you create hollow pages that don't provide a lot of quality content.
-    %li Link farms - if you try to game backlinks (i.e. make multiple websites that link back to each other).
-    %li Plagiarism - if you use other people's content, they have ways of detecting who is the real author and they can issue penalties. 
+    %li Cloaking - Putting scrape-able content on the page, but hiding it in from the user.
+    %li Low-value pages - If you create hollow pages that don't provide a lot of quality content.
+    %li Link farms - If you try to 'game' backlinks (i.e. make multiple websites that link back to each other).
+    %li Plagiarism - If you use other people's content, they have ways of detecting who is the real author and they can issue penalties if you claim it as their own. 
   %p How serious are their penalties?
 
 #notes{ data: { class: 'emphasis' } }
@@ -237,14 +233,16 @@ __END__
 @@ slide13
 #content
   %h2 PageRank Summary
+  %br/
   %ul
-    %li Make sure Google knows all of your content.
-    %li Make sure your content is well-structured and provides high-value to the user.
+    %li Make sure Google is aware of all of your content.
+    %li Make sure your content is well-structured and provides value to the user.
     %li Use best practices in building your content.
     %li Keep your website clean and fast.
     %li Don't try to game their system.
 
   %p Google cares more about the user than they do about you. If you're doing something to get visits and the user isn't obtaining value, Google will know. 
+  %p Metrics such as bounce-rates and average time spent on website will play into your rankings.
 
 @@ slide14
 #content
@@ -252,54 +250,127 @@ __END__
   %h2 Whose job is it?
 #notes{ data: { class: 'alternate' } }
   %h1 PRODUCT!
+  %br/
+  %br/
   %p Just kidding...
 
 @@ slide15
 #content
   %h1.center.extra-large SEO
-  %h2.center It's a Team Effort
+  %h2.center A Team Effort
 
 @@ slide16
 #content
-  %h2 What Product Should be Doing
-  %p Build for the user and infuse SEO. Don't approach it from the wrong way. 
+  %h2 Product's Role
+  %p Build for the user and infuse SEO. Don't approach it from the wrong way.
   %ul
-    %li Define & communicate keywords - determining what keywords perform best for us is a large undertaking, but once we know what works best for us, communicate that to the team (developers) so we know what meta information to focus on (i.e. page titles, meta descriptions, alt tags, etc.).
-    %li URLs - take them serious! Think hard about URL schemes. Grab a developer and bounce ideas off of them. When we change a URL at a later date, it hurts our SEO juice. 10k backlinks to /store is significantly more important than 5k backlinks to /items and 5k backlines to /store. Think about it.
-    %li Sitemaps - are we adding a new feature? Make sure it's added to the HTML sitemap. Make sure we have FAQ content in place.
-    %li Quality content - the content on a page matters. Copy and pasting is the devil for SEO. Be creative, take your time, make it count.
-    %li Feature flows - does the feature flow smoothly? is it organized? is there a hierarchy? Can it be intertwined with another feature (i.e. Catalog) on our website?
+    %li 
+      %b Define & communicate keywords
+      \ - Determining what keywords perform best for us and communicate them to the team so we know what meta information to focus on (i.e. page titles, meta descriptions, alt tags, etc.).
+    %li 
+      %b URL Naming
+      \ - Take them serious! Grab a dev and bounce ideas off of them. When we change a URL at a later date, it hurts our SEO juice. 10k backlinks to /store is better than 5k backlinks to /items and 5k backlinks to /store. Think about it.
+    %li 
+      %b Sitemaps
+      \ - Are we adding a new feature? Make sure it's added to the HTML sitemap. Make sure we have FAQ content in place.
+    %li 
+      %b Feature flows
+      \ - Does the feature flow smoothly? Is it organized? Is there a hierarchy? Can it be intertwined with another feature (i.e. Catalog) on our website?
+    %li 
+      %b Quality content 
+      \- The copy/content on a page matters. Copy and pasting is the devil for SEO. Be creative, take your time, and make it count.
     %li 
       %b Don't be shady! 
-      \- Google doesn't like it. Developers don't like it. It feels dirty all over to code something that has negative, ulterior motives. 
+      \- Google doesn't like it. Developers don't like it. It feels dirty-all-over to code something that does not benefit the user and has negative, ulterior motives. 
 
-@@ slide16
+@@ slide17
 #content
-  %h2 What Developers Should be Doing
+  %h2 Developer's Role
   %p Get educated! Not knowing is not an excuse!
   %ul
-    %li Don't be lazy - Have an image? Make sure there's alt text. Have a link? Make sure there's title text. Use the right elements (h1, h2, p, etc.)
-    %li Think hard on meta - When you place the alt text, make it meaningful. If you care, you'll take the time to do it right.
-    %li JavaScript beware - If a link requires jQuery to work, you're doing it wrong. If a bot can't get from page to page, you're doing it wrong. 
-    %li Plan from the beginning - Before you start coding, think about SEO. SEO can dictate execution (i.e. don't bring content in via AJAX).
+    %li 
+      %b Don't be lazy
+      \ - Have an image? Make sure there's alt text. Have a link? Make sure there's title text. Use the right elements (h1, h2, p, etc.).
+    %li 
+      %b Think hard on the meta
+      \ - When you place the alt text, make it meaningful. If you care, you'll take the time to do it right.
+    %li 
+      %b Plan from the beginning 
+      \- Before you start coding, think about SEO. SEO can dictate execution (i.e. don't bring content in via AJAX).
+    %li
+      %b JavaScript beware
+      \ - If a link requires jQuery to work, you're doing it wrong. If a bot can't get from page to page, you're doing it wrong. 
     %li 
       %b Don't be shady! 
-      \- We're an ethical company. It something feels slimy, speakUP. 
+      \- We're an ethical company. It something doesn't feel right, speakUP, but be respectful and rational.
 
-/ slide17
+#notes{ data: { class: 'emphasis' } }
+  %p 
+    Bad:
+    %br/
+    ~load_snippet('bad_image_tag.html')
 
+  %p 
+    Good:
+    %br/
+    ~load_snippet('good_image_tag.html')
 
-/ Fixing shit. 
-/ %ul
-/   %li  
+  %p 
+    Bad:
+    %br/
+    ~load_snippet('bad_anchor_tag.html')
+
+  %p 
+    Good:
+    %br/
+    ~load_snippet('good_anchor_tag.html')
+
+  %p Seems small, but if you extrapolate it out to 40,000 item links and images, it is meaningful.
+
+@@ slide18
+#content
+  %h1.center.extra-large SEO
+  %h2.center What's Next?
+
+@@ slide19
+#content
+  %h2 Focus-a-thon
+  %h3 There's a lot we need to do.
+  %ul
+    %li Re-build HTML and XML sitemaps.
+    %li Keyword meta information audit.
+    %li Developer HTML attribute audit.
+    %li Status codes and re-direct audit.
+    %li JavaScript audit.
+    %li URL schemes audit.
+    %li Hierarchy link mapping.
+
+  %p We need to update our catalog and SIV to have descriptive back links so that bots can traverse to end nodes (single item views) and work their way back up to root nodes (brand catalog, size catalog, category catalog).
 
 @@ slide20
 #content
   %h2 What else can we do?
   %ul
-    %li Expand the FAQ. If we get asked a question a lot (i.e. quality), write a full blog post addressing the issue and link to it from the FAQ. Some people want more than a 2-sentence explanation. 
-    %li Create a customized product feed for each size (or brand or category).
-    %li Investigate how to improve our Yahoo/Bing ranking.
+    %li Expand the FAQ - If we get asked a question a lot (i.e. quality), write a full blog post addressing the issue and link to it from the FAQ.
+    %li Create more customized Google product feeds.
+    %li Investigate how to improve our Yahoo/Bing ranking and implement best practices.
     %li Introduce the HTML canonical attribute to our store, catalog, and bag feed links.
-    %li Quality, used kids clothes related content creation.
-    %li Mobile App SEO (ex: blog about app updates/releases/features).    
+    %li Mobile App SEO (ex: blog about app updates/releases/features).
+    %li Quality, used kids clothes-related content creation (how about some education on the used kids clothing market?).
+    %li Optimize page speed further on entry points.
+
+@@ slide21
+#content
+  %h2 Parting words
+  %br/
+  %ul.large
+    %li SEO gains won't be seen overnight, but the sooner we address it the better. 
+    %li Having a sound SEO foundation in place will be critical as we scale.
+    %li Focus on what we can plausibly win (keywords, social, etc.).
+    %li Everyone 'owns' SEO - all ideas are welcome.
+
+#notes{ data: { class: 'alternate' } }
+  %h1.small With SEO
+  %img{src: '/images/captain_planet.jpeg'}
+  %h1.small The power is yours!
+

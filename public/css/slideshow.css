@@ -65,6 +65,10 @@ h1.extra-large {
   letter-spacing: 20px;
 }
 
+h1.small {
+  font-size: 116px;
+}
+
 h2 {
   font-size: 96px;
   line-height: 1;
@@ -101,6 +105,11 @@ h4 {
 
 ul {
   margin: 10px 0px;
+}
+
+ul.large {
+  margin-top: 20px;
+  font-size: 150%;
 }
 
 li {
