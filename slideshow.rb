@@ -74,15 +74,15 @@ __END__
   %h2 It's all about the benjamins
   %br/
   %img{src: '/images/money.jpeg'}
-  %p But seriously, it is like free money - we don't pay anything for organic traffic so there's only upside. We can never have too much organic traffic.
+  %p Seriously, organic traffic is like free money. We can never have too much organic traffic - unless you think having too much money or too many visitors is a bad thing.
 
 #notes{ data: { class: 'emphasis'} }
   %h2 Returns on SEO
   %ul
     %li Discovery of our store and the clean out service
-    %li Brand exposure
-    %li New users &amp; emails
+    %li thredUP brand exposure
     %li Market awareness of the 2nd-hand clothing market
+    %li New users &amp; emails
 
 @@ slide2
 #content
@@ -114,11 +114,14 @@ __END__
 #content
   %h2 Google PageRank
   %h3 How does PageRank work?
-  %p The exact algorithm is not and never will be published - it's worth billions upon billions of dollars, but we can infer a lot.
-  %p We know they have a link analysis algorithm that creates weighted-results for search queries.
+  %p The exact PageRank algorithm is not and never will be published - it's worth billions upon billions of dollars, but we can infer a lot.
+  %p For example, we know they have a link analysis algorithm that creates weighted-results for search queries. Here is what a link analysis algorithm looks like:
   %img{src: '/images/algorithm_gibberish.png'}
   %center
     %p ????????????????????
+#notes{ data: { class: 'emphasis'} }
+  %h2 Google PageRank
+  %p You would need a PHD in Computer Science Engineering to understand the algorithms at play with PageRank. Luckily, you don't need to know exactly how it works to optimize for PageRank. 
 
 @@ slide5
 #content
@@ -146,15 +149,15 @@ __END__
   %ul
     %li Direct - you manually add your URL to Google's index.
     %li Backlinks - other websites link back to your website and its content.
-    %li Sitemaps - an HTML/XML file that lists every link you care about on your website.
-    %li Structured linking - having an organized hierarchy of links that is easy for bots to traverse.
+    %li Sitemaps - an HTML/XML file that lists every link you want Google (or your user) to know about on your website.
+    %li Structured linking - having an organized hierarchy of links on your website that is easy for bots to traverse.
     %li Product feeds - if you're an e-commerce website, you can send Google your inventory along with meta information.
 
 #notes{ data: { class: 'emphasis'} }
   %h3 What do our sitemaps look like?
   %br/
   ~load_snippet('sitemap.xml')
-  %p Foreboding: more on this later.
+  %p Foreboding: this particular sitemap is grossly incompetent, more on this later.
 
 @@ slide8
 #content
@@ -168,6 +171,7 @@ __END__
 @@ slide9
 #content
   %h2 Amplifiers
+  %p Things you can do that will elevate you above others in Google search results.
   %ul
     %li Quality - Unique and genuine content trumps everything. Google only cares if you're providing value to the user.
     %li Backlinks - The more websites that link to yours, the better your search rankings will be. The quality of the backlink is very important though.
@@ -197,9 +201,9 @@ __END__
       %b Keyword stuffing
       \- If you put too many keywords on your website, Google has a tougher time deciphering the signal from the noise. 
     %li Quality - If other websites provide better versions of your content, you'll be ranked lower (i.e. GAP has better information about their brand than we can provide, therefore we will rank lower when people search for GAP). 
-    %li Speed - the slower your website, the worse your ranking.
-    %li Number of backlinks - if you don't have a lot of backlinks, they judge you.
-    %li Bad coding practices - if your code compliance is poor, it will hurt you.
+    %li Speed - The slower your website, the worse your ranking.
+    %li Number of backlinks - If you don't have a lot of backlinks, they judge you.
+    %li Bad coding practices - If your code compliance is poor, it will hurt you.
   
 @@ slide12
 #content
@@ -210,13 +214,14 @@ __END__
   %p PageRank is extremely intelligent and is constantly evolving.
   %ul
     %li Cloaking - Putting scrape-able content on the page, but hiding it in from the user.
-    %li Low-value pages - If you create hollow pages that don't provide a lot of quality content.
+    %li Low-value pages - Creating hollow pages that don't provide a lot of quality content.
     %li Link farms - If you try to 'game' backlinks (i.e. make multiple websites that link back to each other).
     %li Plagiarism - If you use other people's content, they have ways of detecting who is the real author and they can issue penalties if you claim it as their own. 
   %p How serious are their penalties?
 
 #notes{ data: { class: 'emphasis' } }
-  %h3 WTF happened in early 2011?
+  %h3 PageRank Panda Update
+  %p Don't mess with Google. If you look at the charts below, you'll see websites that were penalized during the February 2011 Panda update.
   %p 
     eHow.com
     %br/
@@ -262,7 +267,7 @@ __END__
 @@ slide16
 #content
   %h2 Product's Role
-  %p Build for the user and infuse SEO. Don't approach it from the wrong way.
+  %p Build for the user and infuse SEO. Don't approach it from the wrong way - the user should always come first.
   %ul
     %li 
       %b Define & communicate keywords
@@ -305,6 +310,7 @@ __END__
       \- We're an ethical company. It something doesn't feel right, speakUP, but be respectful and rational.
 
 #notes{ data: { class: 'emphasis' } }
+  %h3 Proper HTML Attributes
   %p 
     Bad:
     %br/
@@ -325,7 +331,7 @@ __END__
     %br/
     ~load_snippet('good_anchor_tag.html')
 
-  %p Seems small, but if you extrapolate it out to 40,000 item links and images, it is meaningful.
+  %p Seems small, but if you extrapolate it out to 40,000 links and images, the benefits are significant. Alt and title tags provide Google with context of the links and images you have listed on your website (when you have an image, Google doesn't know what it is without the alt tag).
 
 @@ slide18
 #content
@@ -366,10 +372,11 @@ __END__
   %ul.large
     %li SEO gains won't be seen overnight, but the sooner we address it the better. 
     %li Having a sound SEO foundation in place will be critical as we scale.
-    %li Focus on what we can plausibly win (keywords, social, etc.).
+    %li Focus on what we can plausibly win (i.e. long-tail brand/category keywords).
     %li Everyone 'owns' SEO - all ideas are welcome.
 
 #notes{ data: { class: 'alternate' } }
+  %p As Captain Planet says:
   %h1.small With SEO
   %img{src: '/images/captain_planet.jpeg'}
   %h1.small The power is yours!
