@@ -17,10 +17,6 @@
   top: 10px;
 }
 
-#notes #show_info {
-  display: hidden;
-}
-
 body {
   background-color: #f0f2ea;
   font-size: 30px;

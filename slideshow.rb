@@ -60,8 +60,6 @@ __END__
 / Result:
 / ~load_snippet('ruby_example.rb')
 
-/ http://www.webdistortion.com/2012/07/14/seo-for-developers/
-
 @@ slide0 
 #content
   %h1.center.extra-large SEO
@@ -380,4 +378,3 @@ __END__
   %h1.small With SEO
   %img{src: '/images/captain_planet.jpeg'}
   %h1.small The power is yours!
-

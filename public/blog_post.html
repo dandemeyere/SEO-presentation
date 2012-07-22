@@ -1,0 +1,120 @@
+<p>
+  SEO has amassed a bad reputation over the years. Is it legit? Is it snake oil? The truth lies somewhere in the middle. SEO <i>can</i> improve the quantity and quality of organic traffic you receive, but it's not magic. The SEO 'specialists' who suggest building link farms, low-value landing pages, and other shady techniques designed to game
+  <a href="http://en.wikipedia.org/wiki/PageRank" target="_blank" title="Wikipedia Article on Google PageRank">PageRank</a>
+  (Google's ranking algorithm) are largely to blame for the negative SEO stigma, but SEO is real and it is valuable.
+</p>
+<p>
+  While there are legitimate SEO professionals who can add value to your website, no one person or department should be solely responsible for SEO.
+  <b>SEO should be a team-wide effort.</b>
+</p>
+<p>
+  Education, authenticity, and diligence should be at the core of this effort. Product, marketing, and development teams should all be educated on SEO and its best practices. It's up to these teams to ensure that the SEO techniques implemented are in the best interest of the user (authenticity) and that the SEO efforts are a continued focus during the construction of your website (diligence).
+</p>
+<p>
+  I recently presented my research and thoughts about SEO to our entire team at
+  <a href="http://www.thredup.com" target="_blank" title="thredUP - Used Kids Clothing Shop">thredUP</a>
+  . While the presentation (
+  <a href="https://github.com/dandemeyere/SEO-presentation" target="_blank" title="GitHub hosted SEO Presentation">click here to view it</a>
+  ) was tailored to a non-technical audience, my focus in this post will be on what developers need to know about SEO.
+</p>
+<h3>Google PageRank</h3>
+<p>It's important to prioritize your development resources to yield the biggest SEO gains for the smallest amount of development effort possible (aka leverage). The first step is to determine your organic traffic breakdown by search engine source. If you're like us, Google is probably your #1 source (over 95% of thredUP's organic traffic comes from Google). Because of this, you should focus on optimizing towards Google's search result ranking algorithm PageRank.</p>
+<p>
+  Regardless of whether you're a developer or not, I believe a basic understanding of
+  <a href="http://fast-fortress-9612.herokuapp.com/slides/3" target="_blank" title="Quick and Dirty Breakdown of how Search Engines Work">how search engines work</a>
+  is all that's required to be effective with your SEO efforts. Based on what
+  <a href="http://www.youtube.com/playlist?list=PL09B09220BA526712&amp;feature=plcp" target="_blank" title="YouTube Videos from Google Employees about SEO Topics and Best Practices">Google has released themselves</a>
+  and from what other websites have tested and documented, there are widely known and accepted factors that play into Google's PageRank algorithm.
+</p>
+<h3>Discovery</h3>
+<p>Google has to be aware of your website's existence and the content you offer before PageRank can evaluate and index it. Here are some ways to ensure Google finds your content:</p>
+<ul>
+  <li>
+    Manual submission - through Google Webmaster Tools, you can directly
+    <a href="https://www.google.com/webmasters/tools/submit-url?continue=/addurl" target="_blank" title="Submit Your Website to Google's Index">add your URL to Google's index</a>
+    .
+  </li>
+  <li>Backlinks - when websites other than your own link to your website and its content, it will provide Google's crawlers another way to discover what your website has to offer.</li>
+  <li>Sitemaps - an HTML/XML file that lists every link you want Google (or your user) to know about on your website.</li>
+  <li>Structured linking - having an organized flow of links on your website allows Google's crawlers to more easily traverse and understand the relationships between the content on your website.</li>
+  <li>
+    Product feeds - if you're an e-commerce website, you can send Google your inventory along with meta information through their
+    <a href="http://www.google.com/merchants/basicsettings" target="_blank" title="Sign Up For Google Merchant Center">Google Merchant account center</a>
+    .
+  </li>
+</ul>
+<h3>SEO Elevators</h3>
+<p>There are actionable items you can do that will elevate you above others in Google search results.</p>
+<ul>
+  <li>Quality - unique and genuine content trumps everything (i.e. Wikipedia's amazing search result ranking). Google only cares if you're providing value to the user so if a user clicks on a search and immediately clicks 'back' because the page wasn't helpful, Google knows and it will detract the ranking for the page.</li>
+  <li>Backlinks - the more websites that link to yours, the better your search rankings will be; however, the quality of the backlink is very important as well. If a well known and respected website links to your website, they are legitimizing your website in a small way. Conversely, if a small website that is relatively unknown links to your website, the benefits will be minimal.</li>
+  <li>
+    Best coding practices - being HTML compliant (ex:
+    <a href="https://gist.github.com/3161032" target="_blank" title="Example of HTML Image Alt Attribute">using alt attributes for images</a>
+    ,
+    <a href="https://gist.github.com/3161040" target="_blank" title="Example of HTML Anchor Title Attribute">title tag text for links</a>
+    , etc.), using a hierarchy of HTML elements (h1 tag for page header, h2 tags for sub headers, etc.) and building descriptive URL schemes will further enhance Google's ability to add context to your website's content as well as signal to Google that you take care in the construction of your website.
+  </h2></li>
+  <li>Keywords - if you know the main keywords users are using in their Google search queries for you website, which you can see inside Google Analytics, you can then tailor your meta information content around those keywords to further emphasize their importance.</li>
+  <li>Speed - Google knows how long your page takes to load (Google Analytics) and they know users don't want to wait, so the speed of your website will influence your ranking.</li>
+  <li>Usability - Does your website need JavaScript to work? Do you have too many ads? Is your layout conducive to a good user experience? Google's latest PageRank updates include the ability to load JavaScript and CSS to analyze the layout and usability of your website.</li>
+</ul>
+<h3>SEO Detractors</h3>
+<p>
+  In general, if you don't follow the best practices mentioned in the list above, you're going to detract from your website's SEO potential. However, there are some things you can do, which I believe are shady, that Google will penalize you for if they find out you're doing. If you want to see an example of how serious Google's penalties are,
+  <a href="http://fast-fortress-9612.herokuapp.com/slides/12" target="_blank" title="SEO Presentation Slide on Google PageRank Penalites">click here</a>
+  and once the slide loads, click 'i' on your keyboard.
+</p>
+<p>To avoid Google PageRank penalties, stay away from these SEO tactics:</p>
+<ul>
+  <li>Keyword stuffing - if you embed too many keywords into your website's meta information HTML tags, Google will have a tougher time deciphering the signal from the noise. If you really abuse the use of keywords, Google can penalize you for intentionally trying to game the system.</li>
+  <li>Cloaking - putting scrape-able content on the page, but hiding it in from the user is a big Google 'no-no'. Google can load the CSS on your website so they know what the user can see and what you're hiding from them.</li>
+  <li>Low-value pages - creating hollow pages that don't provide a lot of quality content to the user. This is also known as 'content farming'.</li>
+  <li>Link farms - if you try to 'game' the number of backlinks your websites has by creating new websites that link back to your original website, Google will find out and it will hurt your page ranking.</li>
+  <li>Plagiarism - if you use other people's content, Google has ways of detecting who the real author and they can issue page ranking penalties if you claim the content as your own.</li>
+</ul>
+<h3>Summary</h3>
+<p>Users come first. Google's search engine is designed to give users the information they're looking for as fast as possible. Google doesn't care about your website, it's all about the user so make sure you're building new features for the user and not building features to attract more organic traffic. Build a genuinely great product for your users, follow best SEO practices, and you'll see sustainable results.</p>
+<ul>
+  <li>
+    <b>Define &amp; communicate keywords</b>
+    - determine what keywords perform best for your website and communicate them to your development team so they know what meta information to focus on (i.e. page titles, meta descriptions, alt text, etc.).
+  </li>
+  <li>
+    <b>URL Naming</b>
+     - take URL naming seriously! Grab a developer and bounce naming convention ideas off of them. When you change a URL at a later date, it hurts the page's SEO juice. 10,000 backlinks to one link is greater than 5,000 backlinks to two different links that go to the same page. Think about it.
+  </li>
+  <li>
+    <b>Quality content</b>
+    - the copy/content on a page matters. Copy and pasting is the devil for SEO. Be creative, take your time, and make it count.
+  </li>
+  <li>
+    <b>Sitemaps</b>
+     - are you adding a new feature? Make sure you add it to the HTML &amp; XML sitemap. Make sure you have FAQ content in place.
+  </li>
+  <li>
+    <b>Don't be lazy</b>
+     - have an image? Make sure there's alt text. Have a link? Make sure there's title text. Use the right elements (h1, h2, p, etc.).
+  </li>
+  <li>
+    <b>Think hard on the meta</b>
+     - when you place the alt text, make it meaningful. If you care, you'll take the time to do it right.
+  </li>
+  <li>
+    <b>JavaScript beware</b>
+     - if a link requires jQuery to work, you're doing it wrong. If a bot can't get from page to page, you're doing it wrong.
+  </li>
+  <li>
+    <b>Plan from the beginning</b>
+    - before you start coding, think about SEO. SEO can dictate execution (i.e. don't bring content in via AJAX).
+  </li>
+  <li>
+    <b>Intuitive feature flows</b>
+     - does the feature flow smoothly? Is it organized? Is there a hierarchy? Can you a build a directory page for it?
+  </li>
+  <li>
+    <b>Don't be shady!</b>
+    - Google doesn't like it. Developers don't like it. It feels dirty-all-over to code something that does not benefit the user and has negative, ulterior motives.
+  </li>
+</ul>
+<p>If I missed anything or you disagree with my conclusions, please comment below.</p>

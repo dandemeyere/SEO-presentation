@@ -1,4 +1,14 @@
-h1. Sinatra Slideshow
+h1. Playing the Slideshow
+
+If you're looking to build your own presentation with this technology, please skip to the 'Developing Your Own Sinatra Slideshow' section below. If you're looking to view this presentation, you should start here:
+<a href='http://fast-fortress-9612.herokuapp.com/slides/0' target='_blank' title="Dan DeMeyere's SEO Presentation">Dan DeMeyere's SEO presentation</a>.
+
+Here are the controls to view the presentation:
+Use your keyboard arrows (left and right) to navigate the slides. If you see '(i) info' in the top right corner of the slide, it means there's additional information for that slide so press the 'i' button on your keyboard to display that information. 
+
+If you have feedback, please view/comment at: <a href='http://www.dandemeyere.com/blog/SEO-for-developers' title='SEO For Developers Blog Post' target='_blank'>http://www.dandemeyere.com/blog/SEO-for-developers</a>.
+
+h1. Developing Your Own Sinatra Slideshow
 
 h2. Background
 
